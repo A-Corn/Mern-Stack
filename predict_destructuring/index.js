@@ -1,4 +1,4 @@
-// Problem 1:
+// Problem 1
 const cars = ["Tesla", "Mercedes", "Honda"];
 const [randomCar] = cars;
 const [, otherRandomCar] = cars;
@@ -6,6 +6,12 @@ const [, otherRandomCar] = cars;
 console.log(randomCar);
 console.log(otherRandomCar);
 
+// Outcomes
+//    Tesla
+//    Honda
+
+
+// Problem 2
 const employee = {
     name: "Elon",
     age: 47,
@@ -16,6 +22,11 @@ const { name: otherName } = employee;
 console.log(name);
 console.log(otherName);
 
+// Outcomes
+//     error name is not defined
+
+
+// Problem 3
 const person = {
     name: "Phil Smith",
     age: 47,
@@ -27,6 +38,12 @@ const { password: hashedPassword } = person;
 console.log(password);
 console.log(hashedPassword);
 
+// Outcomes
+//    12345
+//    undefined
+
+
+// Problem 4
 const numbers = [8, 2, 3, 5, 6, 1, 67, 12, 2];
 const [, first] = numbers;
 const [, , , second] = numbers;
@@ -35,6 +52,12 @@ const [, , , , , , , , third] = numbers;
 console.log(first == second);
 console.log(first == third);
 
+// Outcomes 
+//    False
+//    True
+
+
+// Problem 5
 const lastTest = {
     key: "value",
     secondKey: [1, 5, 1, 8, 3, 3],
@@ -47,3 +70,9 @@ console.log(key);
 console.log(secondKey);
 console.log(secondKey[0]);
 console.log(willThisWork);
+
+// Outcomes 
+//    value
+//    [1, 5, 1, 8, 3, 3]
+//    1
+//    5
