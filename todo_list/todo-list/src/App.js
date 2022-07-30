@@ -17,7 +17,7 @@ function App() {
       return i !== delIdx;
     });
 
-    setTask(filteredtasks)
+    setTask(filteredtasks)   
 
   };
   
